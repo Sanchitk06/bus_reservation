@@ -1,0 +1,171 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #a86d4b;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  .container {
+    width:100%;
+    max-width:none;
+    padding:0;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #9adaca;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    float: left;
+    /* margin: 10px 15px 10px 0; */
+}
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #850000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(226, 204, 8);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;    
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link{
+    text-decoration: none;
+  }
+  .navbar-brand p { /* tagline */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
+
+  .nav-list {
+    margin-top: 0px;
+  }
+  .nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+
+  .nav-list a:hover, .nav-list a:focus, .nav-list a:link {
+    text-decoration: none;
+  }
+  
+  .profile{
+    width:35px;
+  }
+
+  .bg-cp{
+    background-color: #8a3d3c;
+  }
+  .fs-7{
+    color: #000000;
+    font-size: 18px;
+  }
+  .fs-8{
+    color: #000000;
+    font-size: 15px;
+  }
+  .section-1{
+    height: 100vh;
+    background-image: url(assets/frontpage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  .booking{
+    position: absolute;
+    top:  70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .searchbox{
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);  
+  }
+
+  .panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(8, 9, 26);
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    color: #fdfdfd;
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    color: #fdfdfd;
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #fdfdfd;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    color: #fdfdfd;
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+  /* END FOOTER */
+  
+  /* .section-1{
+    height: 100vh;
+    
+    background-image: url(/assets/frontpage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section-2{
+  background: #aa52fc;
+}
+.Book_ticket{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #3b0202;
+  border: none;
+  color: rgb(190, 139, 44);
+  padding: 15px 32px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: bold;  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.box p{
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.box h1{
+  font-size: 50px;
+  text-shadow:  0px 0px 5px #000;
+} */
