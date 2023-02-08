@@ -1,4 +1,4 @@
-body {
+body{
     font-size: 16px;
     color: #fff;
     background-color: #a86d4b;
@@ -6,8 +6,7 @@ body {
   }
   
   .container {
-    width:100%;
-    max-width:none;
+    max-width: 90%;
     padding:0;
   }
   
